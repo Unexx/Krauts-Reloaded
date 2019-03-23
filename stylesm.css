@@ -1,0 +1,64 @@
+
+
+/* Hintergrundfarbe der Navigationsleiste anpassen */
+.navigation {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style der Navigationsleiste bestimmen */
+.navigation a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Ändere die Farbe der Links, beim überfahren mit der Maus (hover) */
+.navigation a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Hervorheben der aktuell ausgewählten Seite */
+.startseite {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Ausblenden des als nächsten zuöffneten Links */
+.navigation .icon {
+  display: none;
+}
+
+/*Volle Breite der Input-Felder*/
+input[type=text], input[type=passwort]{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/*Padding auf register Boxen*/
+.register {
+  padding: 16px;
+}
+
+/* Gestaltung der Fußzeile mit Verweis auf Impressum */
+.fusszeile {
+  position: fixed;
+  padding: 10px 0px 0px 0px;
+  background-color: #4CAF50;
+  background: #ddd;
+  margin: 50px;
+}
+
+.fusszeile p {
+  float: right;
+  margin: 0;
+}
